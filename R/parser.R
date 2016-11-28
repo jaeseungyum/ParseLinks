@@ -4,7 +4,7 @@
 #' @return the parsed link header A list
 #' @export
 #' @examples
-#' parse('<http://example.com?limit=50&order=desc>; rel="meta", <http://example.com?limit=100&order=asc>; rel="prev", <http://example.com>; rel="last"')
+#' parse('<http://example.com?limit=50&order=desc>; rel="meta", <http://example.com>; rel="last"')
 
 parse <- function(link_header_string) {
   unlist(lapply(splitter(link_header_string), parse_one), recursive = F)
