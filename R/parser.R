@@ -5,6 +5,10 @@
 #' @return the parsed link header A list
 
 parser <- function(link_header_string) {
+  unlist(lapply(splitter(link_header_string), parser_fun), recursive = F)
+} 
+
+parser_fun <- function(link_header_string) {
   url_exp <- "(?:<)(.*)(?:>,?\\s?.*)"
   rel_exp <- "(?:.*rel=[\"|'])(.*)(?:[\"|'])"
 
