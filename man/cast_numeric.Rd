@@ -6,6 +6,12 @@
 \usage{
 cast_numeric(x)
 }
+\arguments{
+\item{x}{A length-one character vector}
+}
+\value{
+A length-one character vector of A length-one numeric vector
+}
 \description{
 Convert to numeric if the given string represents a number
 }

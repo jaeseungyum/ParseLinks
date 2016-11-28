@@ -16,6 +16,6 @@ the parsed link header A list
 Parse a link header string with multiple urls & rels then convert it into a list
 }
 \examples{
-parse('<http://example.com?limit=50&order=desc>; rel="meta", <http://example.com?limit=100&order=asc>; rel="prev", <http://example.com>; rel="last"')
+parse('<http://example.com?limit=50&order=desc>; rel="meta", <http://example.com>; rel="last"')
 }
 

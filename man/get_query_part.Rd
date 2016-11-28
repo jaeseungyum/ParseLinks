@@ -6,6 +6,12 @@
 \usage{
 get_query_part(url)
 }
+\arguments{
+\item{url}{A length-one character vector}
+}
+\value{
+the query part of the url A length-one character vector
+}
 \description{
 Extract query part from the given url string
 }
