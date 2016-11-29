@@ -3,3 +3,4 @@
 ^Makefile$
 ^tests/
 ^\.travis\.yml$
+^cran-comments.md
