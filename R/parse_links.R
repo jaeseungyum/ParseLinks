@@ -6,7 +6,7 @@
 #' @return A list keyed by the \code{rel} properties that contains information about each link
 #' @export
 #' @examples
-#' parse_links('<http://example.com?limit=50&order=desc>; rel="meta", <http://example.com>; rel="last"')
+#' parse_links('<http://example.com/first>; rel="meta", <http://example.com>; rel="home"')
 
 parse_links <- function(x) {
   unlist(lapply(splitter(x), parse_link), recursive = F)

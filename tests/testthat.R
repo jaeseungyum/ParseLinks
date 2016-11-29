@@ -1,4 +1,4 @@
 library(testthat)
-library(LinkHeaderParseR)
+library(ParseLinks)
 
-test_check("LinkHeaderParseR")
+test_check("ParseLinks")
