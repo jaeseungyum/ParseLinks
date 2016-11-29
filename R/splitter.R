@@ -1,9 +1,10 @@
-#' Parse a link header text then convert the text into a character vector 
-#' such like c('<url..>; rel=".."', '<url..>; rel=".."')
+#' Splitter 
+#' 
+#' Splits a text string by comma then returns a character vector
 #'
-#' @param link_header_string A length-one character vector
+#' @param x A character string
 #' @return A character vector
 
-splitter <- function(link_header_string) {
-  gsub("^\\s", "", unlist(strsplit(link_header_string, ",")))
+splitter <- function(x) {
+  gsub("^\\s", "", unlist(strsplit(x, ",")))
 }

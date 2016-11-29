@@ -2,19 +2,17 @@
 % Please edit documentation in R/splitter.R
 \name{splitter}
 \alias{splitter}
-\title{Parse a link header text then convert the text into a character vector 
-such like c('<url..>; rel=".."', '<url..>; rel=".."')}
+\title{Splitter}
 \usage{
-splitter(link_header_string)
+splitter(x)
 }
 \arguments{
-\item{link_header_string}{A length-one character vector}
+\item{x}{A character string}
 }
 \value{
 A character vector
 }
 \description{
-Parse a link header text then convert the text into a character vector 
-such like c('<url..>; rel=".."', '<url..>; rel=".."')
+Splits a text string by comma then returns a character vector
 }
 
