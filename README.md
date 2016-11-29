@@ -1,4 +1,5 @@
 # ParseLinks
+[![Travis-CI Build Status](https://travis-ci.org/jsng/ParseLinks.svg?branch=master)](https://travis-ci.org/jsng/ParseLinks)
 
 A simple link header parser for R. The function `parse_links` parses a link header strings into an R list for each contained link.
 
