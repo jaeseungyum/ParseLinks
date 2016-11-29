@@ -1,5 +1,5 @@
 # LinkHeaderParseR
-A simple R package for parsing a link header 
+A simple link header parser for R.
 
 ## Quick Start
 ### installation
