@@ -11,3 +11,5 @@ LazyData: true
 Suggests:
     testthat
 RoxygenNote: 5.0.1
+URL: https://github.com/jsng/ParseLinks
+BugReports: https://github.com/jsng/ParseLinks/issues
