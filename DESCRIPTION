@@ -1,6 +1,6 @@
 Package: ParseLinks 
 Title: A link header parser for R
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: person("Jaeseung", "Yum", email = "yum.jsx@gmail.com", role = c("aut", "cre"))
 Description: A simple link header parser for R. The package helps you handle link header strings by parsing and returning an R list for each contained link.
 Depends:
