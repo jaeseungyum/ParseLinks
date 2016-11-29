@@ -1,4 +1,5 @@
 # LinkHeaderParseR
+[![CircleCI](https://circleci.com/gh/jsng/LinkHeaderParseR.svg?style=svg)](https://circleci.com/gh/jsng/LinkHeaderParseR)
 A simple link header parser for R.
 
 ## Quick Start
