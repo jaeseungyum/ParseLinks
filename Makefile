@@ -1,3 +1,3 @@
 test:
-	R --quiet -e "library(devtools); devtools::test()"
-	R --quiet -e "library(devtools); devtools::check()"
+	Rscript -e 'devtools::test()'
+	Rscript -e 'devtools::check()'
