@@ -1,3 +1,3 @@
 test:
-	R --quiet -e "devtools::test()"
-	R --quiet -e "devtools::check()"
+	R --quiet -e "library(devtools); devtools::test()"
+	R --quiet -e "library(devtools); devtools::check()"
